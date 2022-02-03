@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h2></h2>
+    
+    
+    <div class="section1">
+        <div class="container">
+            <div id="myform" class="d-flex justify-content-between"  action="">
+                <input id="input1"  placeholder="Firstname" type="text" class="py-2  text-white my-4 btn btn-primary border-0 ">
+                <input id="input2" placeholder="Lasttname" type="text" class="py-2  text-white my-4 btn btn-warning border-0 ">
+                <input id="input3" placeholder="Username" type="text" class="py-2  text-white my-4 btn btn-info border-0 ">
+                <input id="input4" placeholder="Phone number" type="number" class="py-2  text-white my-4 btn btn-danger border-0 ">
+                <button id="btn" class=" my-4 btn btn-warning border-0 addstatus ">Add Student</button>
+                <button style="display: none;"  class="btn my-4 btn-primary  editstudent">Edit Student</button>
+            </div>
+          <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">T/r</th>
+                  <th scope="col">Firstname</th>
+                  <th scope="col">Lastname</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">phoneNumber</th>
+                  <th class="text-center " scope="col">Action</th>
+                  
+                </tr>
+              </thead>
+              <tbody class="myTable">
+                <!-- <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr> -->
+              
+              </tbody>
+            </table>
+        </div>
+    </div>
+    
+      <script src="Js/jQuery.js"></script>
+      <script src="Js/index.js"></script>
+    
+</body>
+</html>
